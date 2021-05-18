@@ -1,0 +1,24 @@
+#problems-hard {
+    font-family: 'Inter', sans-serif;
+    border-collapse: collapse;
+    width: 78.5%;
+    margin: 0 auto;
+}
+
+#problems-hard td {
+    padding: 8px;
+}
+
+#problems-hard tr:nth-child(even) {
+    background-color: #ffebee  ;
+}
+
+#problems-hard tr:hover {
+    background-color: #ffebee  ;
+}
+
+@media only screen and (max-width: 800px) {
+    #problems-hard {
+        width: 100%;
+    }
+}

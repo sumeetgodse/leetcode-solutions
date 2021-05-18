@@ -1,0 +1,24 @@
+#problems-easy {
+    font-family: 'Inter', sans-serif;
+    border-collapse: collapse;
+    width: 78.5%;
+    margin: 0 auto;
+}
+
+#problems-easy td {
+    padding: 8px;
+}
+
+#problems-easy tr:nth-child(even) {
+    background-color: #e8f5e9;
+}
+
+#problems-easy tr:hover {
+    background-color: #e8f5e9;
+}
+
+@media only screen and (max-width: 800px) {
+    #problems-easy {
+        width: 100%;
+    }
+}

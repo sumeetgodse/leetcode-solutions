@@ -1,0 +1,117 @@
+.navbar-container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100px;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-block {
+    width: 99%;
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.easy {
+    height: 100%;
+    width: 33%;
+    color: #8bc34a;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.medium {
+    height: 100%;
+    width: 33%;
+    color: #ffa726;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hard {
+    height: 100%;
+    width: 33%;
+    color: #f44336;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.easy-selected {
+    height: 100%;
+    width: 33%;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8bc34a;
+}
+
+.medium-selected {
+    height: 100%;
+    width: 33%;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffa726;
+}
+
+.hard-selected {
+    height: 100%;
+    width: 33%;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f44336;
+}
+
+.easy:hover {
+    color: white;
+    transition-duration: 0.5s;
+    background-color: #8bc34a;
+    cursor: pointer;
+}
+ .medium:hover {
+    color: white;
+    transition-duration: 0.5s;
+    background-color: #ffa726;
+    cursor: pointer;
+}
+.hard:hover {
+    color: white;
+    transition-duration: 0.5s;
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .navbar-container {
+        width: 100%;
+        margin: 0 auto;
+        height: 80px;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+    }
+}
