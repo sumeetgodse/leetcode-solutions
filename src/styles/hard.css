@@ -3,6 +3,7 @@
     border-collapse: collapse;
     width: 78.5%;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 #problems-hard td {

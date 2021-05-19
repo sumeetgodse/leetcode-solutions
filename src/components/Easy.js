@@ -42,7 +42,7 @@ export default function Easy() {
         {
             id: 26,
             title: "Remove Duplicates from Sorted Array",
-            solution_src: "https://leetcode.com/problems/remove-duplicates-from-sorted-array/discuss/1216073/C++-or-Stack-Approach"
+            solution_src: ""
         },
         {
             id: 27,
@@ -54,6 +54,101 @@ export default function Easy() {
             title: "Implement strStr()",
             solution_src: "https://leetcode.com/problems/implement-strstr/discuss/1167418/100-faster-or-0ms-or-C%2B%2B-or-Without-using-inbuilt-functions"
         },
+        {
+            id: 35,
+            title: "Search Insert Position",
+            solution_src: "https://leetcode.com/problems/search-insert-position/discuss/1217157/C++-or-Binary-Search-Modified"
+        },
+        {
+            id: 53,
+            title: "Maximum Subarray",
+            solution_src: "https://leetcode.com/problems/maximum-subarray/discuss/1217161/Simple-C++-Solution"
+        },
+        {
+            id: 58,
+            title: "Length of Last Word",
+            solution_src: ""
+        },
+        {
+            id: 69,
+            title: "Sqrt(x)",
+            solution_src: ""
+        },
+        {
+            id: 83,
+            title: "Remove Duplicates from Sorted List",
+            solution_src: "https://leetcode.com/problems/remove-duplicates-from-sorted-list/discuss/1171372/Simple-or-Easy-to-understand-or-C++"
+        },
+        {
+            id: 88,
+            title: "Merge Sorted Array",
+            solution_src: "https://leetcode.com/problems/merge-sorted-array/discuss/1202289/Traversing-arrays-from-the-end-or-O(m+n)-or-C++"
+        },
+        {
+            id: 94,
+            title: "Binary Tree Inorder Traversal",
+            solution_src: "https://leetcode.com/problems/binary-tree-inorder-traversal/discuss/1212270/Recursion-or-C++-or-0ms-or-Simple-to-Understand"
+        },
+        {
+            id: 104,
+            title: "Maximum Depth of Binary Tree",
+            solution_src: ""
+        },
+        {
+            id: 108,
+            title: "Convert Sorted Array to Binary Search Tree",
+            solution_src: "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/discuss/1213456/Simple-Recursive-Binary-Search-Approach-or-C++"
+        },
+        {
+            id: 121,
+            title: "Best Time to Buy and Sell Stock",
+            solution_src: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/discuss/1164651/Simple-Self-Explanatory-C++-Solution"
+        },
+        {
+            id: 136,
+            title: "Single Number",
+            solution_src: ""
+        },
+        {
+            id: 169,
+            title: "Majority Element",
+            solution_src: ""
+        },
+        {
+            id: 203,
+            title: "Remove Linked List Elements",
+            solution_src: ""
+        },
+        {
+            id: 206,
+            title: "Reverse Linked List",
+            solution_src: "https://leetcode.com/problems/reverse-linked-list/discuss/1202158/Simple-Stack-Solution-or-C++-or-Easy-to-understand"
+        },
+        {
+            id: 237,
+            title: "Delete Node in a Linked List",
+            solution_src: "https://leetcode.com/problems/delete-node-in-a-linked-list/discuss/1217095/Simple-C++-Solution"
+        },
+        {
+            id: 509,
+            title: "Fibonacci Number",
+            solution_src: ""
+        },
+        {
+            id: 589,
+            title: "N-ary Tree Preorder Traversal",
+            solution_src: ""
+        },
+        {
+            id: 671,
+            title: "Second Minimum Node In a Binary Tree",
+            solution_src: "https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/discuss/1213504/C++-or-0ms-or-Self-Explanatory-Approach"
+        },
+        {
+            id: 1480,
+            title: "Running Sum of 1d Array",
+            solution_src: ""
+        },
     ]
 
     return (
@@ -64,7 +159,7 @@ export default function Easy() {
                         <tr key={data.id}>
                             <td>{data.id}</td>
                             <td>{data.title}</td>
-                            <td><a href={data.solution_src} target="_blank">Solution</a></td>
+                            {data.solution_src && <td><a href={data.solution_src} target="_blank">Solution</a></td>}
                         </tr>
                     )
                 })}

@@ -24,7 +24,7 @@ export default function Hard() {
                         <tr key={data.id}>
                             <td>{data.id}</td>
                             <td>{data.title}</td>
-                            <td><a href={data.solution_src} target="_blank">Solution</a></td>
+                            {data.solution_src && <td><a href={data.solution_src} target="_blank">Solution</a></td>}
                         </tr>
                     )
                 })}

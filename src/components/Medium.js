@@ -54,6 +54,66 @@ export default function Medium() {
             title: "Swap Nodes in Pairs",
             solution_src: ""
         },
+        {
+            id: 33,
+            title: "Search in Rotated Sorted Array",
+            solution_src: "https://leetcode.com/problems/search-in-rotated-sorted-array/discuss/1208131/Easy-to-Understand-or-C++-or-Binary-Search-or-100-faster"
+        },
+        {
+            id: 34,
+            title: "Find First and Last Position of Element in Sorted Array",
+            solution_src: ""
+        },
+        {
+            id: 36,
+            title: "Valid Sudoku",
+            solution_src: ""
+        },
+        {
+            id: 48,
+            title: "Rotate Image",
+            solution_src: ""
+        },
+        {
+            id: 62,
+            title: "Unique Paths",
+            solution_src: "https://leetcode.com/problems/unique-paths/discuss/1193931/C++-or-Dynamic-Programming-or-0ms-or-100-faster"
+        },
+        {
+            id: 75,
+            title: "Sort Colors",
+            solution_src: ""
+        },
+        {
+            id: 78,
+            title: "Subsets",
+            solution_src: "https://leetcode.com/problems/subsets/discuss/1207436/Simple-Approach-or-C++"
+        },
+        {
+            id: 102,
+            title: "Binary Tree Level Order Traversal",
+            solution_src: ""
+        },
+        {
+            id: 114,
+            title: "Flatten Binary Tree to Linked List",
+            solution_src: ""
+        },
+        {
+            id: 215,
+            title: "Kth Largest Element in an Array",
+            solution_src: ""
+        },
+        {
+            id: 230,
+            title: "Kth Smallest Element in a BST",
+            solution_src: ""
+        },
+        {
+            id: 1423,
+            title: "Maximum Points You Can Obtain from Cards",
+            solution_src: ""
+        },
     ]
 
     return (
@@ -64,7 +124,7 @@ export default function Medium() {
                         <tr key={data.id}>
                             <td>{data.id}</td>
                             <td>{data.title}</td>
-                            <td><a href={data.solution_src} target="_blank">Solution</a></td>
+                            {data.solution_src && <td><a href={data.solution_src} target="_blank">Solution</a></td>}
                         </tr>
                     )
                 })}
