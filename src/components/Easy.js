@@ -100,6 +100,11 @@ export default function Easy() {
             solution_src: "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/discuss/1213456/Simple-Recursive-Binary-Search-Approach-or-C++"
         },
         {
+            id: 110,
+            title: "Balanced Binary Tree",
+            solution_src: "https://leetcode.com/problems/balanced-binary-tree/discuss/1221575/C++-Recursion-Solution"
+        },
+        {
             id: 121,
             title: "Best Time to Buy and Sell Stock",
             solution_src: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/discuss/1164651/Simple-Self-Explanatory-C++-Solution"

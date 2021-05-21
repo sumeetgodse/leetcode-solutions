@@ -7,7 +7,7 @@ export default function Hard() {
         {
             id: 4,
             title: "Median of Two Sorted Arrays",
-            solution_src: "https://leetcode.com/problems/median-of-two-sorted-arrays/discuss/1216046/C++-or-Simple-Approach"
+            solution_src: ""
         },
         {
             id: 23,

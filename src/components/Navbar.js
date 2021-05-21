@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../styles/navbar.css"
 import { useSelector, useDispatch } from "react-redux"
 import { setEasy, setMedium, setHard } from "../actions/setDifficulty"

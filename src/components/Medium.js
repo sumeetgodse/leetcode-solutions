@@ -17,12 +17,12 @@ export default function Medium() {
         {
             id: 5,
             title: "Longest Palindromic Substring",
-            solution_src: ""
+            solution_src: "https://leetcode.com/problems/longest-palindromic-substring/discuss/1219351/C-Solution"
         },
         {
             id: 8,
             title: "String to Integer (atoi)",
-            solution_src: ""
+            solution_src: "https://leetcode.com/problems/string-to-integer-atoi/discuss/1219352/C++-Solution"
         },
         {
             id: 11,
@@ -47,7 +47,7 @@ export default function Medium() {
         {
             id: 22,
             title: "Generate Parentheses",
-            solution_src: ""
+            solution_src: "https://leetcode.com/problems/generate-parentheses/discuss/1221551/C++-or-Simple-Solution-or-Stack"
         },
         {
             id: 24,
@@ -72,12 +72,17 @@ export default function Medium() {
         {
             id: 48,
             title: "Rotate Image",
-            solution_src: ""
+            solution_src: "https://leetcode.com/problems/rotate-image/discuss/1221555/Simple-C++-Solution"
         },
         {
             id: 62,
             title: "Unique Paths",
             solution_src: "https://leetcode.com/problems/unique-paths/discuss/1193931/C++-or-Dynamic-Programming-or-0ms-or-100-faster"
+        },
+        {
+            id: 64,
+            title: "Minimum Path Sum",
+            solution_src: "https://leetcode.com/problems/minimum-path-sum/discuss/1221703/Easy-C++-Solution"
         },
         {
             id: 75,
@@ -92,7 +97,7 @@ export default function Medium() {
         {
             id: 102,
             title: "Binary Tree Level Order Traversal",
-            solution_src: ""
+            solution_src: "https://leetcode.com/problems/binary-tree-level-order-traversal/discuss/1221548/Using-C++-or-Queue"
         },
         {
             id: 114,
@@ -102,7 +107,7 @@ export default function Medium() {
         {
             id: 215,
             title: "Kth Largest Element in an Array",
-            solution_src: ""
+            solution_src: "https://leetcode.com/problems/kth-largest-element-in-an-array/discuss/1219357/Simple-C++-Solution-or-Using-Priority-Queue"
         },
         {
             id: 230,
@@ -112,7 +117,7 @@ export default function Medium() {
         {
             id: 1423,
             title: "Maximum Points You Can Obtain from Cards",
-            solution_src: ""
+            solution_src: "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/discuss/1219365/Easy-C++-Solution"
         },
     ]
 
@@ -132,3 +137,4 @@ export default function Medium() {
         </table>
     )
 }
+

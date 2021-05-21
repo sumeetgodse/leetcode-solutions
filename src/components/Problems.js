@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useSelector } from "react-redux"
 import Easy from './Easy'
 import Hard from './Hard'
@@ -10,9 +10,9 @@ export default function Problems() {
 
     return (
         <>
-            {currentDifficulty===1&& <Easy/>}
-            {currentDifficulty===2&& <Medium/>}
-            {currentDifficulty===3&& <Hard/>}
+            {currentDifficulty===1&& <Easy />}
+            {currentDifficulty===2&& <Medium />}
+            {currentDifficulty===3&& <Hard />}
         </>
     )
 }
