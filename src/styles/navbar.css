@@ -114,4 +114,14 @@
         display: flex;
         justify-content: center;
     }
+    .navbar-block {
+        width: 100%;
+        height: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
 }

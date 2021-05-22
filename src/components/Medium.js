@@ -42,7 +42,7 @@ export default function Medium() {
         {
             id: 19,
             title: "Remove Nth Node From End of List",
-            solution_src: ""
+            solution_src: "https://leetcode.com/problems/remove-nth-node-from-end-of-list/discuss/1223779/Simple-C++-Solution"
         },
         {
             id: 22,
@@ -62,7 +62,7 @@ export default function Medium() {
         {
             id: 34,
             title: "Find First and Last Position of Element in Sorted Array",
-            solution_src: ""
+            solution_src: "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/discuss/1223789/C++-Binary-Search-Solution"
         },
         {
             id: 36,
@@ -73,6 +73,11 @@ export default function Medium() {
             id: 48,
             title: "Rotate Image",
             solution_src: "https://leetcode.com/problems/rotate-image/discuss/1221555/Simple-C++-Solution"
+        },
+        {
+            id: 61,
+            title: "Rotate List",
+            solution_src: "https://leetcode.com/problems/rotate-list/discuss/1222832/Simple-C++-Solution"
         },
         {
             id: 62,
@@ -93,6 +98,11 @@ export default function Medium() {
             id: 78,
             title: "Subsets",
             solution_src: "https://leetcode.com/problems/subsets/discuss/1207436/Simple-Approach-or-C++"
+        },
+        {
+            id: 80,
+            title: "Remove Duplicates from Sorted Array II",
+            solution_src: "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/discuss/1222863/No-Extra-Space-or-100-faster-or-C++"
         },
         {
             id: 102,

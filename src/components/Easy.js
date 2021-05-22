@@ -67,12 +67,12 @@ export default function Easy() {
         {
             id: 58,
             title: "Length of Last Word",
-            solution_src: ""
+            solution_src: "https://leetcode.com/problems/length-of-last-word/discuss/1223705/C++-Simple-Solution"
         },
         {
             id: 69,
             title: "Sqrt(x)",
-            solution_src: ""
+            solution_src: "https://leetcode.com/problems/sqrtx/discuss/1223772/Simple-C-Solution"
         },
         {
             id: 83,
@@ -103,6 +103,16 @@ export default function Easy() {
             id: 110,
             title: "Balanced Binary Tree",
             solution_src: "https://leetcode.com/problems/balanced-binary-tree/discuss/1221575/C++-Recursion-Solution"
+        },
+        {
+            id: 112,
+            title: "Path Sum",
+            solution_src: "https://leetcode.com/problems/path-sum/discuss/1223387/C++-Solution-using-Stack"
+        },
+        {
+            id: 118,
+            title: "Pascal's Triangle",
+            solution_src: "https://leetcode.com/problems/pascals-triangle/discuss/1223694/Simple-0ms-C++-Solution"
         },
         {
             id: 121,
