@@ -65,6 +65,11 @@ export const easyProblems = [
         solution_src: "https://leetcode.com/problems/length-of-last-word/discuss/1223705/C++-Simple-Solution"
     },
     {
+        id: 67,
+        title: "Add Binary",
+        solution_src: "https://leetcode.com/problems/add-binary/discuss/1227875/Simple-and-Easy-to-Understand-or-C++"
+    },
+    {
         id: 69,
         title: "Sqrt(x)",
         solution_src: "https://leetcode.com/problems/sqrtx/discuss/1223772/Simple-C-Solution"
@@ -87,7 +92,7 @@ export const easyProblems = [
     {
         id: 104,
         title: "Maximum Depth of Binary Tree",
-        solution_src: ""
+        solution_src: "https://leetcode.com/problems/maximum-depth-of-binary-tree/discuss/1227892/Simple-C++-Recusrive-Solution"
     },
     {
         id: 108,
@@ -122,7 +127,12 @@ export const easyProblems = [
     {
         id: 136,
         title: "Single Number",
-        solution_src: ""
+        solution_src: "https://leetcode.com/problems/single-number/discuss/1227893/Easy-C++-Solution"
+    },
+    {
+        id: 141,
+        title: "Linked List Cycle",
+        solution_src: "https://leetcode.com/problems/linked-list-cycle/discuss/1227766/Simple-C++-Solution"
     },
     {
         id: 144,
@@ -142,7 +152,7 @@ export const easyProblems = [
     {
         id: 203,
         title: "Remove Linked List Elements",
-        solution_src: ""
+        solution_src: "https://leetcode.com/problems/remove-linked-list-elements/discuss/1227909/Simple-C++-Solution"
     },
     {
         id: 206,
@@ -157,12 +167,12 @@ export const easyProblems = [
     {
         id: 509,
         title: "Fibonacci Number",
-        solution_src: ""
+        solution_src: "https://leetcode.com/problems/fibonacci-number/discuss/1227920/Simple-C-Solution"
     },
     {
         id: 589,
         title: "N-ary Tree Preorder Traversal",
-        solution_src: ""
+        solution_src: "https://leetcode.com/problems/n-ary-tree-preorder-traversal/discuss/1227925/Iterative-or-C++-or-Using-Stack"
     },
     {
         id: 671,
@@ -170,8 +180,13 @@ export const easyProblems = [
         solution_src: "https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/discuss/1213504/C++-or-0ms-or-Self-Explanatory-Approach"
     },
     {
+        id: 709,
+        title: "To Lower Case",
+        solution_src: "https://leetcode.com/problems/to-lower-case/discuss/1227783/Simple-C++-Solution"
+    },
+    {
         id: 1480,
         title: "Running Sum of 1d Array",
-        solution_src: ""
+        solution_src: "https://leetcode.com/problems/running-sum-of-1d-array/discuss/1227930/Simple-C++-Solution"
     },
 ]

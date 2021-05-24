@@ -7,7 +7,7 @@ export const mediumProblems = [
     {
         id: 3,
         title: "Longest Substring Without Repeating Characters",
-        solution_src: ""
+        solution_src: "https://leetcode.com/problems/longest-substring-without-repeating-characters/discuss/1227936/Simple-Approach-or-C++"
     },
     {
         id: 5,
