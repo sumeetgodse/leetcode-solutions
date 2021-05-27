@@ -4,7 +4,7 @@ import { mediumProblems } from "./MediumProblems"
 import { easyProblems } from "./EasyProblems"
 import { hardProblems } from "./HardProblems"
 import ProblemStatements from './ProblemStatements'
-
+import "../styles/search.css"
 
 export default function Problems() {
 
