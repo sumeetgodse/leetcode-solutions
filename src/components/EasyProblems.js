@@ -37,7 +37,7 @@ export const easyProblems = [
     {
         id: 26,
         title: "Remove Duplicates from Sorted Array",
-        solution_src: ""
+        solution_src: "https://leetcode.com/problems/remove-duplicates-from-sorted-array/discuss/1234149/Simple-C++-Solution"
     },
     {
         id: 27,
@@ -147,7 +147,7 @@ export const easyProblems = [
     {
         id: 169,
         title: "Majority Element",
-        solution_src: ""
+        solution_src: "https://leetcode.com/problems/majority-element/discuss/1234167/Simple-C++-Solution-or-No-extra-space"
     },
     {
         id: 203,

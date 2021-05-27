@@ -47,7 +47,7 @@ export const mediumProblems = [
     {
         id: 24,
         title: "Swap Nodes in Pairs",
-        solution_src: ""
+        solution_src: "https://leetcode.com/problems/swap-nodes-in-pairs/discuss/1234203/Simple-C-Solution-or-0ms"
     },
     {
         id: 33,
@@ -107,7 +107,7 @@ export const mediumProblems = [
     {
         id: 114,
         title: "Flatten Binary Tree to Linked List",
-        solution_src: ""
+        solution_src: "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/discuss/1234188/C++-or-Iterative-or-Stack"
     },
     {
         id: 215,
@@ -117,7 +117,12 @@ export const mediumProblems = [
     {
         id: 230,
         title: "Kth Smallest Element in a BST",
-        solution_src: ""
+        solution_src: "https://leetcode.com/problems/kth-smallest-element-in-a-bst/discuss/1234174/C++-Solution-or-InOrder-Traversal"
+    },
+    {
+        id: 318,
+        title: "Maximum Product of Word Lengths",
+        solution_src: "https://leetcode.com/problems/maximum-product-of-word-lengths/discuss/1234139/Simple-C++-Solution"
     },
     {
         id: 347,
