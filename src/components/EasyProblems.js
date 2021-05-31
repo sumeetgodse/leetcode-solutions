@@ -90,6 +90,11 @@ export const easyProblems = [
         solution_src: "https://leetcode.com/problems/binary-tree-inorder-traversal/discuss/1212270/Recursion-or-C++-or-0ms-or-Simple-to-Understand"
     },
     {
+        id: 100,
+        title: "Same Tree",
+        solution_src: "https://leetcode.com/problems/same-tree/discuss/1236456/Simple-C++-Solution"
+    },
+    {
         id: 104,
         title: "Maximum Depth of Binary Tree",
         solution_src: "https://leetcode.com/problems/maximum-depth-of-binary-tree/discuss/1227892/Simple-C++-Recusrive-Solution"

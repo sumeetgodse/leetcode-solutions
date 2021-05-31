@@ -130,6 +130,11 @@ export const mediumProblems = [
         solution_src: "https://leetcode.com/problems/top-k-frequent-elements/discuss/1225941/C++-or-Using-Priority-Queue-and-Hashmap"
     },
     {
+        id: 1268,
+        title: "Search Suggestions System",
+        solution_src: "https://leetcode.com/problems/search-suggestions-system/discuss/1243109/Simple-C++-Solution"
+    },
+    {
         id: 1423,
         title: "Maximum Points You Can Obtain from Cards",
         solution_src: "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/discuss/1219365/Easy-C++-Solution"
