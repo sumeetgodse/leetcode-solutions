@@ -125,6 +125,11 @@ export const easyProblems = [
         solution_src: "https://leetcode.com/problems/pascals-triangle/discuss/1223694/Simple-0ms-C++-Solution"
     },
     {
+        id: 119,
+        title: "Pascal's Triangle II",
+        solution_src: ""
+    },
+    {
         id: 121,
         title: "Best Time to Buy and Sell Stock",
         solution_src: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/discuss/1164651/Simple-Self-Explanatory-C++-Solution"
@@ -155,6 +160,11 @@ export const easyProblems = [
         solution_src: "https://leetcode.com/problems/majority-element/discuss/1234167/Simple-C++-Solution-or-No-extra-space"
     },
     {
+        id: 182,
+        title: "Duplicate Emails",
+        solution_src: "https://leetcode.com/problems/duplicate-emails/discuss/1275993/Simple-Solution"
+    },
+    {
         id: 203,
         title: "Remove Linked List Elements",
         solution_src: "https://leetcode.com/problems/remove-linked-list-elements/discuss/1227909/Simple-C++-Solution"
@@ -165,9 +175,19 @@ export const easyProblems = [
         solution_src: "https://leetcode.com/problems/reverse-linked-list/discuss/1202158/Simple-Stack-Solution-or-C++-or-Easy-to-understand"
     },
     {
+        id: 217,
+        title: "Contains Duplicate",
+        solution_src: "https://leetcode.com/problems/contains-duplicate/discuss/1276227/C++-or-Simple-Unordered-Map"
+    },
+    {
         id: 237,
         title: "Delete Node in a Linked List",
         solution_src: "https://leetcode.com/problems/delete-node-in-a-linked-list/discuss/1217095/Simple-C++-Solution"
+    },
+    {
+        id: 448,
+        title: "Find All Numbers Disappeared in an Array",
+        solution_src: ""
     },
     {
         id: 509,
