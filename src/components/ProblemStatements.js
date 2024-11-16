@@ -5,17 +5,17 @@ import NotFound from './NotFound'
 
 export default function ProblemStatements({ problems }) {
 
-    const [inputId,setInputId]=useState("")
-    const [newproblems,setNewProblems]=useState(problems)
+    const [inputId, setInputId] = useState("")
+    const [newproblems, setNewProblems] = useState(problems)
 
-    const clear=()=>{
+    const clear = () => {
         setInputId("")
         setNewProblems(problems)
-        document.getElementById('InputID').value=""
+        document.getElementById('InputID').value = ""
     }
 
-    const search=()=>{
-        const searchedProblem=problems.filter((item)=>(item.id===Number(inputId)))
+    const search = () => {
+        const searchedProblem = problems.filter((item) => (item.id === Number(inputId)))
         setNewProblems(searchedProblem)
     }
 
@@ -29,20 +29,20 @@ export default function ProblemStatements({ problems }) {
             <table id="problems">
                 <tbody>
                     {
-                        newproblems!=""?
-                        newproblems.map((data, key) => {
-                            return (
+                        newproblems != "" ?
+                            newproblems.map((data, key) => {
+                                return (
 
-                                <tr key={data.id}>
-                                    <td>{data.id}</td>
-                                    <td>{data.title}</td>
-                                    {data.solution_src ? <td style={{ fontWeight: "bolder" }}><a href={data.solution_src} target="_blank" rel="noreferrer">Solution</a></td> : null}
-                                </tr>
+                                    <tr key={data.id}>
+                                        <td>{data.id}</td>
+                                        <td>{data.title}</td>
+                                        {data.solution_src ? <td style={{ fontWeight: "bolder" }}><a href={data.solution_src} target="_blank" rel="noreferrer">Solution</a></td> : null}
+                                    </tr>
 
-                            )
-                        })
-                        :
-                        <NotFound />
+                                )
+                            })
+                            :
+                            <NotFound />
                     }
                 </tbody>
             </table>

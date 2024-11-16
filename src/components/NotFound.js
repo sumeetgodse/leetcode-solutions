@@ -5,7 +5,7 @@ import "../styles/notfound.css"
 export default function NotFound() {
     return (
         <div className="notfound-container">
-            <img className="image" src={sad}/>
+            <img className="image" src={sad} />
             <h1>Not Found!</h1>
         </div>
     )
